@@ -262,4 +262,28 @@ section{
         margin-bottom: 0px;
     }
 }
-
+/* Responsive Design */
+@media (max-width: 884px) {
+    body {
+        overflow-y: auto;
+    }
+    .nav-container .links {
+        display: none;
+    }
+    .hamburg, .cancel {
+        display: block;
+    }
+    .dropdown {
+        display: flex;
+    }
+    .main-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .content {
+        width: 90%;
+    }
+    .image {
+        width: 80%;
+    }
+}
